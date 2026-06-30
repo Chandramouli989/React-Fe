@@ -18,6 +18,36 @@ body {
 .cards{
 height: 400px;
 width: 300px;
-background-color: #dadada;
-border-radius: 20px;
+background-color:#fff;
+border-radius: 30px;
+padding: 25px;
+}
+.cards .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(192, 191, 191);
+  
+}
+.top button {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #dadada;
+  padding:4px 8px;
+  border-radius: 14px;
+  font-size: 13px;
+  color: #b1b1b1;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
