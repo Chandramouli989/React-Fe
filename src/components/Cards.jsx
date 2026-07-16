@@ -15,7 +15,7 @@ const Cards = () => {
             <div className='tag'>
               <h4>Part Time</h4>
               <h4>Senior Level </h4>
-            </div>
+            </div> 
           </div>
         </div>
         <div className="bottom">
